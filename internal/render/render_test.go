@@ -1,9 +1,10 @@
 package render
 
 import (
-	"github.com/tsawler/bookings-app/internal/models"
 	"net/http"
 	"testing"
+
+	"github.com/dominic-wassef/bookings/internal/models"
 )
 
 func TestAddDefaultData(t *testing.T) {

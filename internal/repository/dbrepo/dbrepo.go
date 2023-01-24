@@ -2,8 +2,9 @@ package dbrepo
 
 import (
 	"database/sql"
-	"github.com/tsawler/bookings-app/internal/config"
-	"github.com/tsawler/bookings-app/internal/repository"
+
+	"github.com/dominic-wassef/bookings/internal/config"
+	"github.com/dominic-wassef/bookings/internal/repository"
 )
 
 type postgresDBRepo struct {

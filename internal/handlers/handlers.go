@@ -3,15 +3,16 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/tsawler/bookings-app/internal/config"
-	"github.com/tsawler/bookings-app/internal/driver"
-	"github.com/tsawler/bookings-app/internal/forms"
-	"github.com/tsawler/bookings-app/internal/helpers"
-	"github.com/tsawler/bookings-app/internal/models"
-	"github.com/tsawler/bookings-app/internal/render"
-	"github.com/tsawler/bookings-app/internal/repository"
-	"github.com/tsawler/bookings-app/internal/repository/dbrepo"
 	"net/http"
+
+	"github.com/dominic-wassef/bookings/internal/config"
+	"github.com/dominic-wassef/bookings/internal/driver"
+	"github.com/dominic-wassef/bookings/internal/forms"
+	"github.com/dominic-wassef/bookings/internal/helpers"
+	"github.com/dominic-wassef/bookings/internal/models"
+	"github.com/dominic-wassef/bookings/internal/render"
+	"github.com/dominic-wassef/bookings/internal/repository"
+	"github.com/dominic-wassef/bookings/internal/repository/dbrepo"
 )
 
 // Repo the repository used by the handlers

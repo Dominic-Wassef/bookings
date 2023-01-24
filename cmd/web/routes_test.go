@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-chi/chi"
-	"github.com/tsawler/bookings-app/internal/config"
 	"testing"
+
+	"github.com/dominic-wassef/bookings/internal/config"
+	"github.com/go-chi/chi"
 )
 
 func TestRoutes(t *testing.T) {

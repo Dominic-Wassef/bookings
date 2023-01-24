@@ -3,17 +3,18 @@ package main
 import (
 	"encoding/gob"
 	"fmt"
-	"github.com/alexedwards/scs/v2"
-	"github.com/tsawler/bookings-app/internal/config"
-	"github.com/tsawler/bookings-app/internal/driver"
-	"github.com/tsawler/bookings-app/internal/handlers"
-	"github.com/tsawler/bookings-app/internal/helpers"
-	"github.com/tsawler/bookings-app/internal/models"
-	"github.com/tsawler/bookings-app/internal/render"
 	"log"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/alexedwards/scs/v2"
+	"github.com/dominic-wassef/bookings/internal/config"
+	"github.com/dominic-wassef/bookings/internal/driver"
+	"github.com/dominic-wassef/bookings/internal/handlers"
+	"github.com/dominic-wassef/bookings/internal/helpers"
+	"github.com/dominic-wassef/bookings/internal/models"
+	"github.com/dominic-wassef/bookings/internal/render"
 )
 
 const portNumber = ":8080"

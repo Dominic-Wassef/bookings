@@ -2,9 +2,10 @@ package helpers
 
 import (
 	"fmt"
-	"github.com/tsawler/bookings-app/internal/config"
 	"net/http"
 	"runtime/debug"
+
+	"github.com/dominic-wassef/bookings/internal/config"
 )
 
 var app *config.AppConfig
